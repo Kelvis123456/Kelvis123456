@@ -4,7 +4,7 @@ Full-stack developer with hands-on experience across SaaS platforms, mobile apps
 
 - 🔭 Currently building **RentEdge**, a pricing & revenue management SaaS for the rent-a-car industry
 - 🎮 Also design and prototype original mobile games from concept through pre-production
-- 🌐 Portfolio: see the pinned repos below, or the [full interactive portfolio](https://github.com/Kelvis123456/portfolio)
+- 🌐 Portfolio: see the pinned repos below, or the [full interactive portfolio](https://portfolio-kelvis-g.vercel.app)
 - 📫 Reach me at kelvisguerrero03@gmail.com
 
 ---
@@ -27,13 +27,13 @@ Full-stack developer with hands-on experience across SaaS platforms, mobile apps
 
 | Project | What it is |
 |---|---|
-| [MONARCH](https://github.com/Kelvis123456/monarch) | Fitness app with a full RPG progression system (Flutter + Supabase) |
+| MONARCH | Fitness app with a full RPG progression system (Flutter + Supabase) — private, available on request |
 | [Connect5](https://github.com/Kelvis123456/connect5) | Connect-Four-style board game with local AI + real online multiplayer (Unity) |
 | [Detective Game](https://github.com/Kelvis123456/detective-game) | Narrative detective game with a case/evidence/interrogation engine (React) |
 | [recetas-app](https://github.com/Kelvis123456/recetas-app) | Recipe web app (React 19 + Vite + Tailwind) |
 | [PHASE](https://github.com/Kelvis123456/phase-game-design) | Original mobile game concept — temporal "echoes" + bullet-time roguelite |
 | [SKIM](https://github.com/Kelvis123456/skim-game-design) | Original mobile game concept — stone-skipping physics |
 
-RentEdge, my main SaaS project, is private — happy to walk through the architecture on request.
+RentEdge and MONARCH are private — happy to walk through the architecture on request.
 
-See the [full portfolio](https://github.com/Kelvis123456/portfolio) for detailed case studies.
+See the [full portfolio](https://portfolio-kelvis-g.vercel.app) for detailed case studies, or its [source](https://github.com/Kelvis123456/portfolio).
