@@ -1,43 +1,25 @@
-### Hi, I'm Kelvis 👋
+# Kelvis Guerrero
 
-Full-stack developer with hands-on experience across SaaS platforms, mobile apps, and game design — comfortable moving between backend architecture, mobile development, and interactive frontend work.
+Software developer in Santo Domingo, Dominican Republic. I'm studying Software Development at ITLA and taking the Full-Stack + AI program at Alterna Academy. I did a backend internship writing REST APIs and Worker Services in C#/.NET, and the rest of what's here I built on my own.
 
-- 🔭 Currently building **RentEdge**, a pricing & revenue management SaaS for the rent-a-car industry
-- 🎮 Also design and prototype original mobile games from concept through pre-production
-- 🌐 Portfolio: see the pinned repos below, or the [full interactive portfolio](https://portfolio-kelvis-g.vercel.app)
-- 📫 Reach me at kelvisguerrero03@gmail.com
+I'm looking for a full-time developer role, on-site in Santo Domingo or remote. You can reach me at kelvisguerrero03@gmail.com.
 
----
+## Where to start
 
-#### Stack
+The [portfolio](https://kelvis-guerrero.vercel.app) has a case study per project, with the tradeoffs I made and what is still missing. These three are the ones I'd look at first:
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![C#](https://img.shields.io/badge/-C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Unity](https://img.shields.io/badge/-Unity-000000?style=flat-square&logo=unity&logoColor=white)
+- [AgendaBot](https://github.com/Kelvis123456/agendabot) is a .NET backend where an AI agent books barbershop appointments over WhatsApp. The test that matters fires 8 identical bookings at a real SQL Server and checks that exactly one wins.
+- [ReservaYa](https://github.com/Kelvis123456/reservaya) is a sports court booking platform with PostgreSQL for bookings and MongoDB for the flexible data. It has 76 backend tests, most of them on the failure paths.
+- **RentEdge** is a pricing SaaS for rent-a-car companies (NestJS, Next.js, TimescaleDB, two Python services). The repo is private. The portfolio has the architecture diagram and a 50-second walkthrough, and I'm happy to go through the code on a call.
 
----
+## Other work
 
-#### Featured projects
+- [automatizaciones](https://github.com/Kelvis123456/automatizaciones): n8n workflows, one that stores a daily USD to DOP rate in Postgres and one that classifies messages with Gemini.
+- [Connect5](https://github.com/Kelvis123456/connect5): a board game in Unity with a local AI and online multiplayer.
+- [Detective Game](https://github.com/Kelvis123456/detective-game): a narrative detective game with a case, evidence and interrogation engine, in React.
+- WillForge: a fitness app with an RPG progression system, in Flutter and Supabase. Private.
+- [PHASE](https://github.com/Kelvis123456/phase-game-design) and [SKIM](https://github.com/Kelvis123456/skim-game-design): design work for two original mobile games.
 
-| Project | What it is |
-|---|---|
-| [AgendaBot](https://github.com/Kelvis123456/agendabot) | .NET backend where an AI agent books barbershop appointments over WhatsApp, with a double-booking test against real SQL Server |
-| [automatizaciones](https://github.com/Kelvis123456/automatizaciones) | n8n workflows: a daily USD to DOP rate stored in Postgres, and a Gemini message classifier with tests |
-| WillForge | Fitness app with a full RPG progression system (Flutter + Supabase) — private, available on request |
-| [Connect5](https://github.com/Kelvis123456/connect5) | Connect-Four-style board game with local AI + real online multiplayer (Unity) |
-| [Detective Game](https://github.com/Kelvis123456/detective-game) | Narrative detective game with a case/evidence/interrogation engine (React) |
-| [ReservaYa](https://github.com/Kelvis123456/reservaya) | Sports venue booking platform — PostgreSQL for the transactional side, MongoDB for the flexible side |
-| [PHASE](https://github.com/Kelvis123456/phase-game-design) | Original mobile game concept — temporal "echoes" + bullet-time roguelite |
-| [SKIM](https://github.com/Kelvis123456/skim-game-design) | Original mobile game concept — stone-skipping physics |
+## Stack
 
-RentEdge and WillForge are private — happy to walk through the architecture on request.
-
-See the [full portfolio](https://portfolio-kelvis-g.vercel.app) for detailed case studies, or its [source](https://github.com/Kelvis123456/portfolio).
+TypeScript, C#/.NET, Python, NestJS, Next.js, React, Flutter, PostgreSQL, SQL Server, Docker, n8n, Unity.
