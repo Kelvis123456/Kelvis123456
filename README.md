@@ -12,6 +12,19 @@ The [portfolio](https://kelvis-guerrero.vercel.app) has a case study per project
 - [ReservaYa](https://github.com/Kelvis123456/reservaya) is a sports court booking platform with PostgreSQL for bookings and MongoDB for the flexible data. It has 76 backend tests, most of them on the failure paths.
 - **RentEdge** is a pricing SaaS for rent-a-car companies (NestJS, Next.js, TimescaleDB, two Python services). The repo is private. The portfolio has the architecture diagram and a 50-second walkthrough, and I'm happy to go through the code on a call.
 
+## Libraries and tools
+
+Small projects where I tried to back each claim in the README with a test, then had each one audited by a separate AI reviewer. The audits found real bugs in the first three, and the fixes are in each repo's decisions log.
+
+- [outbox-kit](https://github.com/Kelvis123456/outbox-kit) ([site](https://kelvis-outbox-kit.vercel.app)) is a .NET library for the transactional outbox on EF Core and PostgreSQL. The test that matters kills a real process between publishing and committing, then checks that no message is lost and every effect is applied once.
+- [mcp-probe](https://github.com/Kelvis123456/mcp-probe) ([site](https://kelvis-mcp-probe.vercel.app)) runs scripted checks against an MCP server from a YAML file and fails the CI job when something breaks.
+- [evalgate](https://github.com/Kelvis123456/evalgate) ([docs](https://kelvis-evalgate.vercel.app)) is a CI gate for RAG and LLM apps: a versioned eval set, a committed baseline, and a non-zero exit when quality drops.
+- [Hornilla](https://github.com/Kelvis123456/cafe-concept) ([site](https://kelvis-hornilla.vercel.app)) is a concept website, in Spanish, for a fictional coffee roaster. No photos: everything is drawn in SVG.
+
+## Built around Dominican rules and data
+
+[dgii-helper](https://github.com/Kelvis123456/dgii-helper) issues invoice numbers (NCF) without duplicates, [codigo-trabajo-rag](https://github.com/Kelvis123456/codigo-trabajo-rag) answers questions about the Labor Code and cites its articles, [dop-usd-backtest](https://github.com/Kelvis123456/dop-usd-backtest) tests exchange-rate forecasts against repeating the last value, and [dominican-tools-mcp](https://github.com/Kelvis123456/dominican-tools-mcp) exposes the tax and labor tools through MCP.
+
 ## Other work
 
 - [automatizaciones](https://github.com/Kelvis123456/automatizaciones): n8n workflows, one that stores a daily USD to DOP rate in Postgres and one that classifies messages with Gemini.
