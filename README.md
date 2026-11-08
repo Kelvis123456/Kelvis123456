@@ -27,6 +27,8 @@ Small projects where I tried to back each claim in the README with a test, then 
 
 ## Other work
 
+- [Aura Novel](https://github.com/Kelvis123456/aura-novel): an Android app, in Flutter, for writing novels with an AI assistant. You bring your own API key, so there is no subscription.
+- [Brick Breaker](https://github.com/Kelvis123456/brick-breaker) ([play it](https://brick-breaker-kelvis.vercel.app)): six levels, a boss and power-ups, in TypeScript and a plain canvas with no engine.
 - [automatizaciones](https://github.com/Kelvis123456/automatizaciones): n8n workflows, one that stores a daily USD to DOP rate in Postgres and one that classifies messages with Gemini.
 - [Connect5](https://github.com/Kelvis123456/connect5): a board game in Unity with a local AI and online multiplayer.
 - [Detective Game](https://github.com/Kelvis123456/detective-game): a narrative detective game with a case, evidence and interrogation engine, in React.
